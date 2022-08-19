@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Alura ONE - Encriptador V2</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div>
+
+                <h1><img src="recursos/logoAlura.svg" alt="logo Alura"></h1>
+
+                <nav>
+    
+                    <ul>
+                        <li><a href="index.html">Original</a></li>
+                        <li><a href="version2.html">Version 2</a></li>
+                        <li><a href="version4.html">Version 3</a></li>
+                    </ul>
+    
+                </nav>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <section>
+
+                <div class="cuadroTexto">
+                    <textarea id="textoEntrada" cols="40" rows="10" required placeholder="Ingrese el texto aquí"></textarea>
+                    <p>&#128083 Sin restricción de mayúsculas y caracteres especiales</p>
+                </div>
+
+                <div class="botones">
+
+                    <button id="encriptar" type="button">Encriptar</button>
+
+                    <button id="desencriptar" type="button">Desencriptar</button>
+                    
+                </div>
+
+            </section>
+
+            <section class="cuadroSalida">
+
+                <img src="recursos/Muñeco.svg" alt="personaje buscando">
+                                
+                <div>
+                    <textarea id="textoSalida" cols="40" rows="10" required placeholder="Nada por aqui..."></textarea>
+                </div>
+
+                <div>
+                    <button id="copiar" type="button">Copiar</button>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <h2>@zalotores</h2>
+            <p>ONE - Sin copyright</p>
+
+        </footer>
+
+        <script src="./scriptV2.js"></script>
+
+    </body>
+
+</html>

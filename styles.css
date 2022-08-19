@@ -1,0 +1,166 @@
+body {
+    background: #cce5ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1{
+    padding: 20px;
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+    left: 25%;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(36, 83, 184);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav li{
+    padding-bottom: 10px;
+}
+
+nav a:hover{
+    color: #060719;
+    text-decoration: underline;
+}
+
+.cuadroTexto{
+    background-color: #cce5ff;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.cuadroTexto p{
+    margin: 5px;
+    font-size: 12px;
+    color: darkblue;
+}
+
+#textoEntrada{
+    background-color: #cce5ff;
+    font-family: 'Montserrat', sans-serif;
+    color: darkblue;
+    font-weight: bold;
+    border: 0;
+    resize: none;
+}
+
+.botones{
+    background-color: #cce5ff;
+    font-weight: bold;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    margin-top: 10px;
+}
+
+#encriptar {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color:whitesmoke;
+    margin-right: 5px;
+    }
+#encriptar:hover {
+    border-color:darkblue;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#desencriptar {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border:2 px solid darkblue;
+    border-color: darkblue;
+    background-color: #cce5ff;
+    color:darkblue;
+    margin-left: 5px;
+    }
+
+#desencriptar:hover {
+    border-color: darkblue;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.cuadroSalida{
+    border:2 px solid darkblue;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 120px;
+    left: 40%;
+}
+
+#textoSalida{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    color: darkblue;
+    font-weight: bold;
+    border: 0;
+    margin: 10px;
+    resize: none;
+}
+
+#copiar {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border:2 px solid darkblue;
+    border-color: darkblue;
+    background-color: whitesmoke;
+    color:darkblue;
+    margin: 10px;
+    }
+#copiar:hover {
+    border-color: darkblue;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    top: 800px;
+    left: 25%;
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: small;
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+@media screen and (max-width:815px){
+
+    nav{
+        margin-left: 150px;
+    }
+
+    .cuadroSalida{
+        position: absolute;
+        top: 480px;
+        left: 3%;
+    }
+
+    footer{
+        position: absolute;
+        top: 1050px;
+        width: auto;
+        margin: auto 10px;
+    }
+
+}
